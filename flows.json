@@ -1,0 +1,1010 @@
+[
+    {
+        "id": "4df25836cada2fdf",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "a78338382a4b96b2",
+        "type": "ui_tab",
+        "name": "Control panel",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c9998cbcc02e3597",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "LIGHTING SYSTEM",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "f1b45efe27ba15f4",
+        "type": "ui_group",
+        "name": "Avtomatika",
+        "tab": "a78338382a4b96b2",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d51178421ef3327d",
+        "type": "ui_group",
+        "name": "AL-XORAZMIY ko`chasi",
+        "tab": "a78338382a4b96b2",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "6f3e35a8302008d2",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.emqx.io",
+        "port": "8083",
+        "clientid": "",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "452e2030f31ab732",
+        "type": "telegram bot",
+        "botname": "lighting_urganch_bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "3",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "cc7f56beb3e064c5",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "http://localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "835c956e10e32823",
+        "type": "formio",
+        "project": "https://myproject.form.io",
+        "apikey": ""
+    },
+    {
+        "id": "cc670956dbfda884",
+        "type": "ui_switch",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "label": "LINIYA 1",
+        "tooltip": "",
+        "group": "d51178421ef3327d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "payload",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 620,
+        "y": 140,
+        "wires": [
+            [
+                "5c66398da7a8a6ca"
+            ]
+        ]
+    },
+    {
+        "id": "988ed737fe82f68f",
+        "type": "ui_switch",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "label": "LINIYA 2",
+        "tooltip": "",
+        "group": "d51178421ef3327d",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 620,
+        "y": 200,
+        "wires": [
+            [
+                "f0c873952f12fead"
+            ]
+        ]
+    },
+    {
+        "id": "4859b1f7edb463c1",
+        "type": "ui_switch",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "label": "LINIYA 3",
+        "tooltip": "",
+        "group": "d51178421ef3327d",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 620,
+        "y": 260,
+        "wires": [
+            [
+                "69589ad8a8cdb345"
+            ]
+        ]
+    },
+    {
+        "id": "df8a13220786e9b7",
+        "type": "ui_switch",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "label": "VINTILYATSIYA",
+        "tooltip": "",
+        "group": "d51178421ef3327d",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "x": 620,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d26010a6531764b2",
+        "type": "ui_gauge",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "group": "d51178421ef3327d",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Boshqaruv shkafi harorati",
+        "label": "*C",
+        "format": "{{value}}",
+        "min": "-40",
+        "max": "80",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 650,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "f9fe12fe29cd77f4",
+        "type": "ui_chart",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "group": "d51178421ef3327d",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-40",
+        "ymax": "80",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 590,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a747fa851d7910ef",
+        "type": "ui_dropdown",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "label": "boshqaruv xolati",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "f1b45efe27ba15f4",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "Avtomatik ",
+                "type": "str"
+            },
+            {
+                "label": "",
+                "value": "Qo`lda",
+                "type": "str"
+            },
+            {
+                "label": "",
+                "value": "Taymer orqali",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 240,
+        "y": 60,
+        "wires": [
+            [
+                "d4b7226ac2c4ced0"
+            ]
+        ]
+    },
+    {
+        "id": "648a2e9831619fa0",
+        "type": "ui_form",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "label": "Yonish vaqti",
+        "group": "f1b45efe27ba15f4",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Switch1",
+                "value": "sw1",
+                "type": "time",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Switch2",
+                "value": "sw2",
+                "type": "time",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Switch3",
+                "value": "sw3",
+                "type": "time",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "sw1": "",
+            "sw2": "",
+            "sw3": ""
+        },
+        "payload": "",
+        "submit": "Saqlash",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 270,
+        "y": 620,
+        "wires": [
+            [
+                "533e41c9fcb4a419"
+            ]
+        ]
+    },
+    {
+        "id": "cdde36a3c33a9f49",
+        "type": "rbe",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 430,
+        "y": 260,
+        "wires": [
+            [
+                "4859b1f7edb463c1"
+            ]
+        ]
+    },
+    {
+        "id": "cfdc888390c7514b",
+        "type": "rbe",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 430,
+        "y": 140,
+        "wires": [
+            [
+                "cc670956dbfda884"
+            ]
+        ]
+    },
+    {
+        "id": "2fe7a32e023cac2b",
+        "type": "ui_form",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "label": "O`chish vaqt",
+        "group": "f1b45efe27ba15f4",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Switch1",
+                "value": "sw1",
+                "type": "time",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Switch2",
+                "value": "sw2",
+                "type": "time",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Switch3",
+                "value": "sw3",
+                "type": "time",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "sw1": "",
+            "sw2": "",
+            "sw3": ""
+        },
+        "payload": "",
+        "submit": "Saqlash",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 270,
+        "y": 700,
+        "wires": [
+            [
+                "533e41c9fcb4a419"
+            ]
+        ]
+    },
+    {
+        "id": "6a1821ee57001c11",
+        "type": "rbe",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 430,
+        "y": 200,
+        "wires": [
+            [
+                "988ed737fe82f68f"
+            ]
+        ]
+    },
+    {
+        "id": "af36cced96664e44",
+        "type": "rbe",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 430,
+        "y": 320,
+        "wires": [
+            [
+                "df8a13220786e9b7"
+            ]
+        ]
+    },
+    {
+        "id": "969f3f35f1201f0c",
+        "type": "mqtt in",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "topic": "line1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "cc7f56beb3e064c5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 250,
+        "y": 140,
+        "wires": [
+            [
+                "cfdc888390c7514b"
+            ]
+        ]
+    },
+    {
+        "id": "4adb4f991e102651",
+        "type": "mqtt in",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "topic": "line2",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "cc7f56beb3e064c5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 250,
+        "y": 200,
+        "wires": [
+            [
+                "6a1821ee57001c11"
+            ]
+        ]
+    },
+    {
+        "id": "31743a4bd742c85a",
+        "type": "mqtt in",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "topic": "line3",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "cc7f56beb3e064c5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 250,
+        "y": 260,
+        "wires": [
+            [
+                "cdde36a3c33a9f49"
+            ]
+        ]
+    },
+    {
+        "id": "2a329d90f4d9ceae",
+        "type": "mqtt in",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "topic": "cooler",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "cc7f56beb3e064c5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 250,
+        "y": 320,
+        "wires": [
+            [
+                "af36cced96664e44"
+            ]
+        ]
+    },
+    {
+        "id": "5c66398da7a8a6ca",
+        "type": "mqtt out",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "topic": "line1",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cc7f56beb3e064c5",
+        "x": 770,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "f0c873952f12fead",
+        "type": "mqtt out",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "topic": "line2",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cc7f56beb3e064c5",
+        "x": 770,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "69589ad8a8cdb345",
+        "type": "mqtt out",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "topic": "line3",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cc7f56beb3e064c5",
+        "x": 770,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "b6a8b536abb4a334",
+        "type": "mqtt in",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "topic": "temp1",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "cc7f56beb3e064c5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 230,
+        "y": 420,
+        "wires": [
+            [
+                "d26010a6531764b2",
+                "f9fe12fe29cd77f4"
+            ]
+        ]
+    },
+    {
+        "id": "4aa76ddbd52504ef",
+        "type": "mqtt out",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "topic": "ctemp",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cc7f56beb3e064c5",
+        "x": 690,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "1662ca3b0cfdf9b5",
+        "type": "ui_numeric",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "label": "Cooler ishlash harorati",
+        "tooltip": "",
+        "group": "f1b45efe27ba15f4",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "60",
+        "step": "",
+        "x": 460,
+        "y": 540,
+        "wires": [
+            [
+                "4aa76ddbd52504ef"
+            ]
+        ]
+    },
+    {
+        "id": "d4b7226ac2c4ced0",
+        "type": "function",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "func": "if(msg.payload ==\"Taymer orqali\" || msg.payload ==\"Avtomatik \")\n{\n    msg.enabled = false;\n}\nelse{\n     msg.enabled = true;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 60,
+        "wires": [
+            [
+                "cc670956dbfda884",
+                "988ed737fe82f68f",
+                "4859b1f7edb463c1"
+            ]
+        ]
+    },
+    {
+        "id": "533e41c9fcb4a419",
+        "type": "debug",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 510,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "c6f01fcc17d7877c",
+        "type": "mqtt out",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "topic": "line1",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cc7f56beb3e064c5",
+        "x": 550,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "be11e8baf5333ca1",
+        "type": "mqtt out",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "topic": "line2",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cc7f56beb3e064c5",
+        "x": 550,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "8aeceb120e8407c0",
+        "type": "mqtt out",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "topic": "line3",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cc7f56beb3e064c5",
+        "x": 550,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "663bab7e07b6a361",
+        "type": "aedes broker",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "mqtt_port": 1883,
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": "",
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "dburl": "",
+        "usetls": false,
+        "x": 700,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3254700cd5d54907",
+        "type": "inject",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "enabled",
+                "v": "false",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 440,
+        "y": 360,
+        "wires": [
+            [
+                "df8a13220786e9b7"
+            ]
+        ]
+    },
+    {
+        "id": "73bc435ab5a81d0a",
+        "type": "inject",
+        "z": "4df25836cada2fdf",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "v": "20",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "20",
+        "payloadType": "num",
+        "x": 210,
+        "y": 540,
+        "wires": [
+            [
+                "1662ca3b0cfdf9b5"
+            ]
+        ]
+    }
+]
